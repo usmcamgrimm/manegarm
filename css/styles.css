@@ -50,3 +50,13 @@ hr.nav-line-top {
 ul.NavItems {
   display: flex;
 }
+.shows-header {
+  margin-top: 3rem;
+}
+.shows-header h2 {
+  font-family: 'Reggae One';
+  color: #fcfcf4;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: normal;
+}
