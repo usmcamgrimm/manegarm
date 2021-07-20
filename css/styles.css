@@ -22,6 +22,14 @@ img {
   max-width: 900px;
   height: auto;
 }
+hr.nav-line, hr.nav-line-top {
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid #fcfcf4;
+}
+hr.nav-line-top {
+  margin-top: 2rem;
+}
 .navLink a {
   font-family: Norse;
   font-size: 2rem;
@@ -29,7 +37,7 @@ img {
   text-decoration: none;
 }
 .navLink a:hover {
-  color: #cabcae;
+  color: #941c0c;
 }
 .navLink {
   padding: 12px;
