@@ -16,3 +16,23 @@ img {
   max-width: 900px;
   height: auto;
 }
+.navLink a {
+  font-family: Rakkas;
+  font-size: 1.5rem;
+  color: #fcfcf4;
+  text-decoration: none;
+}
+.navLink a:hover {
+  color: #cabcae;
+}
+.navLink {
+  padding: 12px;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+ul.NavItems {
+  display: flex;
+}
