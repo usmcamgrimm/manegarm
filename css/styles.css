@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Norse';
+  src: url('../font/Norse.woff2') format('woff2'),
+       url('../font/Norse.woff') format('woff'),
+       url('../font/Norse.ttf') format('truetype');
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,8 +23,8 @@ img {
   height: auto;
 }
 .navLink a {
-  font-family: Rakkas;
-  font-size: 1.5rem;
+  font-family: Norse;
+  font-size: 2rem;
   color: #fcfcf4;
   text-decoration: none;
 }
