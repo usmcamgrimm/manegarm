@@ -25,7 +25,7 @@ img {
 hr.nav-line, hr.nav-line-top {
   width: 65%;
   margin: 0 auto;
-  border: 1px solid #fcfcf4;
+  border: 1px solid #5d5250;
 }
 hr.nav-line-top {
   margin-top: 2rem;
@@ -51,7 +51,7 @@ ul.NavItems {
   display: flex;
 }
 .shows-header {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 .shows-header h2 {
   font-family: 'Reggae One';
@@ -59,4 +59,38 @@ ul.NavItems {
   font-size: 2rem;
   text-align: center;
   font-weight: normal;
+}
+.shows-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.shows-about {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-top: 1rem;
+}
+.flyer-moa {
+  max-width: 350px;
+  height: auto;
+  padding-right: 12px;
+  background: url("./resources/flyers/ManegarmOpenAir2022.jpg");
+}
+h3 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #fcfcf4;
+  text-align: center;
+}
+.shows-text {
+  font-family: Roboto;
+  font-size: 1rem;
+  color: #fcfcf4;
+  padding-left: 12px
 }
