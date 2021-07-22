@@ -94,3 +94,13 @@ h3 {
   color: #fcfcf4;
   padding-left: 12px
 }
+ol {
+  margin-top: 2rem;
+}
+li {
+  margin: 12px;
+  color: #fcfcf4;
+  font-family: Norse;
+  font-size: 2rem;
+  list-style: none;
+}
