@@ -94,6 +94,34 @@ h3 {
   color: #fcfcf4;
   padding-left: 12px
 }
+.album {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.albumContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  font-family: Norse;
+  color: #fcfcf4;
+  font-size: 2.25rem;
+}
+.albumCover {
+  max-width: 400px;
+  height: auto;
+}
+.albumInfo p {
+  color: #fcfcf4;
+  font-family: Roboto;
+}
+
+
+
+
 ol {
   margin-top: 2rem;
 }
