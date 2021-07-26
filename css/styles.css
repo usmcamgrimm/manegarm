@@ -23,7 +23,7 @@ img {
   height: auto;
 }
 hr.nav-line, hr.nav-line-top {
-  width: 65%;
+  width: 72%;
   margin: 0 auto;
   border: 1px solid #5d5250;
 }
@@ -94,16 +94,26 @@ h3 {
   color: #fcfcf4;
   padding-left: 12px
 }
-.album {
-  margin-top: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .albumContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin: 3rem 200px;
+}
+.albumInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  padding-bottom: 12px;
+}
+.albumCover {
+  max-width: 450px;
+  height: auto;
+  display: flex;
+  align-self: center;
 }
 h2 {
   font-family: Norse;
@@ -118,17 +128,13 @@ h2 {
   color: #fcfcf4;
   font-family: Roboto;
 }
-
-
-
-
-ol {
-  margin-top: 2rem;
+@media screen and (min-width: 1025px) {
+  hr.nav-line, hr.nav-line-top {
+    width: 60%;
+  }
 }
 li {
-  margin: 12px;
   color: #fcfcf4;
-  font-family: Norse;
-  font-size: 2rem;
-  list-style: none;
+  font-family: Roboto;
+  font-size: 1.2rem;
 }
