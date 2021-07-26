@@ -125,8 +125,17 @@ h2 {
   height: auto;
 }
 .albumInfo p {
-  color: #fcfcf4;
+  color: #fb1a1a;
   font-family: Roboto;
+}
+.albumInfo a {
+  text-decoration: none;
+  color: #fb1a1a;
+}
+hr.albumDivider {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgba(93, 82, 80, 0.5);
 }
 @media screen and (min-width: 1025px) {
   hr.nav-line, hr.nav-line-top {
