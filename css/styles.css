@@ -47,6 +47,9 @@ hr.nav-line-top {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.navLink {
+  list-style: none;
+}
 ul.NavItems {
   display: flex;
 }
