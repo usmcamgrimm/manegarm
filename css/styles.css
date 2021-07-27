@@ -97,13 +97,18 @@ h3 {
   color: #fcfcf4;
   padding-left: 12px
 }
+#albumsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .albumContainer {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   align-items: center;
   height: 400px;
   margin: 3rem 400px;
+  width: 90vw;
 }
 .albumInfo {
   display: flex;
@@ -123,10 +128,6 @@ h2 {
   color: #fcfcf4;
   font-size: 2.25rem;
 }
-.albumCover {
-  max-width: 400px;
-  height: auto;
-}
 .albumInfo p {
   color: #fb1a1a;
   font-family: Roboto;
@@ -136,9 +137,10 @@ h2 {
   color: #fb1a1a;
 }
 hr.albumDivider {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   border: 1px solid rgba(93, 82, 80, 0.5);
+  margin-top: 3rem;
 }
 li {
   color: #fcfcf4;
