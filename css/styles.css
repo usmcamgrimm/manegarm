@@ -56,7 +56,9 @@ ul.NavItems {
 .shows-header {
   margin: 3rem 0;
 }
-.shows-header h2, .news-header h2 {
+.shows-header h2,
+.news-header h2,
+.contact-header h2 {
   font-family: 'Reggae One';
   color: #fcfcf4;
   font-size: 2rem;
