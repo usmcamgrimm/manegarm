@@ -159,3 +159,20 @@ hr.albumLine {
   text-decoration: none;
   color: #fb1a1a;
 }
+/* CONTACT PAGE */
+.social-links-container {
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fab {
+  font-size: 3rem;
+  color: #941c0c;
+  text-shadow: 0 8px 8px #000000;
+}
+.fa-instagram-square {
+  padding: 0 12px;
+}
