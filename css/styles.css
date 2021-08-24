@@ -170,9 +170,12 @@ hr.albumLine {
 }
 .fab {
   font-size: 3rem;
-  color: #941c0c;
-  text-shadow: 0 8px 8px #000000;
+  color: #d7864f;
+  text-shadow: 0 4px 12px #000000;
 }
 .fa-instagram-square {
   padding: 0 12px;
+}
+.fab:hover {
+  transform: scale(1.2);
 }
