@@ -44,14 +44,36 @@
   </section>
 
   <section id="contact-form">
-    <form method="POST" action="sendMessage.php">
-      <label for="name">Your Name</label>
-      <input type="text" name="name" id="name">
-      <label for="email">Email Address</label>
-      <input type="email" name="email" id="email">
-      <label for="message">Message</label>
-      <textarea name="message" id="message"></textarea>
-      <input type="submit" name="send" value="Send">
+    <form
+      class="contact-form"
+      method="POST" 
+      action="sendMessage.php">
+      <div class="form-fields">
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+        >
+        <label for="email">Email Address</label>
+        <input
+          type="email" 
+          name="email" 
+          id="email"
+          placeholder="Email"
+        >
+        <div class="email-text">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            class="message-text" 
+            id="message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <input type="submit" name="send" value="Send">
+      </div>
     </form>
   </section>
 

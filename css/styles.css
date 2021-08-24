@@ -178,4 +178,54 @@ hr.albumLine {
 }
 .fab:hover {
   transform: scale(1.2);
+  color: #941c0c;
+}
+/* CONTACT FORM */
+#contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.contact-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+.email-text {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-family: Roboto;
+  font-size: 1rem;
+  color: #fcfcf4;
+  padding: 8px 0 4px 0;
+}
+.message-text {
+  margin-bottom: 8px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 400px;
+}
+input[type="text"],
+[type="email"] {
+  border-radius: 5px;
+  padding: 4px;
+}
+input[type="submit"] {
+  background: #d7864f;
+  color: #fcfcf4;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 1.1rem;
+  border: none;
+  width: 400px;
+  padding: 4px;
+}
+input[type="submit"]:hover {
+  background: #941c0c;
 }
