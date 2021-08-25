@@ -47,8 +47,11 @@
     <form
       class="contact-form"
       method="POST" 
-      action="sendMessage.php">
+      action="/sendMessage.php"
+      id="contact-form"
+    >
       <div class="form-fields">
+        <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
         <label for="name">Your Name</label>
         <input
           type="text"
@@ -76,6 +79,10 @@
       </div>
     </form>
   </section>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="scripts/formValidation.js"></script>
+
 
 </body>
 </html>
