@@ -10,7 +10,8 @@
   padding: 0;
 }
 html {
-  background: #0f0503;
+  /* background: #0f0503; */
+  background: #0d0d0d;
 }
 .LogoWrapper {
   display: flex;
@@ -37,7 +38,7 @@ hr.nav-line-top {
   text-decoration: none;
 }
 .navLink a:hover {
-  color: #941c0c;
+  color: #861c19;
 }
 .navLink {
   padding: 12px;
