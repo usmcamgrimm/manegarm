@@ -3,3 +3,7 @@
 </p>
 
 ### In-progress website for the Swedish band **Månegarm**
+
+### Workflow Visualization
+
+![Codebase Visualization](./workflow-diagram.svg)
