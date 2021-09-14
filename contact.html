@@ -46,12 +46,10 @@
   <section id="contact-form">
     <form
       class="contact-form"
-      method="POST" 
-      action="/sendMessage.php"
+      method="POST"
       id="contact-form"
     >
       <div class="form-fields">
-        <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
         <label for="name">Your Name</label>
         <input
           type="text"
