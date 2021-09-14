@@ -2,7 +2,7 @@
   <img alt="Månegarm" src="https://i.imgur.com/RICsdkf.png" />
 </p>
 
-### In-progress website for the Swedish band **Månegarm**
+### No Longer in Development Website for the Swedish band **Månegarm**
 
 ### Workflow Visualization
 
