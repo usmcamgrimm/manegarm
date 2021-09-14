@@ -1,8 +1,8 @@
 name: Create diagram
 on:
-  workflow_dispatch: {
-    [push, pull_request]
-  }
+  workflow_dispatch: {}
+  push:
+    branch: [master]
 
 jobs:
   get_data:
