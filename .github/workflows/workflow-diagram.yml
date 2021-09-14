@@ -15,4 +15,3 @@ jobs:
         with:
           output_file: "./workflow-diagram.svg"
           excluded_paths: ".github"
-          should_push: false 
