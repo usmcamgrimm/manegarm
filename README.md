@@ -5,5 +5,4 @@
 ### In-progress website for the Swedish band **Månegarm**
 
 ### Workflow Visualization
-**View the updated codebase diagram**
 ![Codebase Visualization](./workflow-diagram.svg)
